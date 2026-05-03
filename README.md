@@ -160,7 +160,7 @@ Groq – free LLM access
 
 Streamlit – open‑source framework
 
-Baseline paper: Smith & Lee (2024) – Relevance of a Customized Version of ChatGPT Explaining Laboratory Test Results in Patient Education
+Baseline paper: **Ojeda‑Meixueiro, V.H., et al. (2024).** *Relevance of a Customized Version of ChatGPT Explaining Laboratory Test Results in Patient Education.* Journal of Medical Education and Curricular Development.
 
 ## 📄 License
 This project is for educational purposes only. It is not intended for clinical diagnosis. See the LICENSE file for details.
