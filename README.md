@@ -17,7 +17,7 @@
 
 | Home Page | Text Input | PDF Upload |
 |-----------|------------|------------|
-| ![Home](./assets/home.jpeg) | ![Text Input](./assets/text.jpeg) | ![PDF Input](./assets/pdf.jpeg) |
+| ![Home](assets/home.JPG) | ![Text Input](assets/text.JPG) | ![PDF Input](assets/pdf.JPG) |
 
 ---
 
