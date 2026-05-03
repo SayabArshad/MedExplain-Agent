@@ -90,6 +90,8 @@ streamlit run app.py
 ```
 The app will open at http://localhost:8501 in your browser.
 
+---
+
 ##  📋 Usage Guide
 Input Options
 Option	How to use
@@ -112,6 +114,8 @@ Plain‑English explanation
 
 A medical disclaimer is always displayed at the end.
 
+---
+
 ## Example Output
 
 | Test | Value | Reference | Risk | Explanation |
@@ -119,6 +123,8 @@ A medical disclaimer is always displayed at the end.
 | HbA1c | 8.1 % | 4.0–5.6 % | 🔴 High Risk | Your HbA1c suggests higher than normal average blood sugar over the past 3 months. This may indicate prediabetes or diabetes. Please discuss this result with your doctor. |
 | Hemoglobin | 10.2 g/dL | 12.0–15.5 g/dL | 🔴 High Risk | Your hemoglobin is below the normal range, which may indicate anaemia. Please discuss this result with your doctor. |
 | LDL Cholesterol | 145 mg/dL | <100 mg/dL | 🟠 Moderate Risk | Your LDL is slightly above the optimal level. Lifestyle changes or medication may be discussed with your physician. |
+
+---
 
 ## 📊 Evaluation Summary
 We evaluated MedExplain on 50 lab test cases (15 high‑risk, 20 moderate‑risk, 15 low‑risk) covering 15 different biomarkers, with ground truth provided by a practising physician.
@@ -140,6 +146,8 @@ Comparable to specialised lab‑AI systems but with free API and web interface
 
 Detailed results and confusion matrices are available in the accompanying paper: AI_Assignment_02.pdf.
 
+---
+
 ## 🛠️ Technologies Used
 Python 3.10+ – core logic
 
@@ -153,6 +161,8 @@ pandas, re, json – data handling
 
 python-dotenv – environment variable management
 
+---
+
 ## 🤝 Acknowledgements
 Dr. Kanwal Yousaf – project supervisor, UET Taxila
 
@@ -162,8 +172,12 @@ Streamlit – open‑source framework
 
 Baseline paper: **Ojeda‑Meixueiro, V.H., et al. (2024).** *Relevance of a Customized Version of ChatGPT Explaining Laboratory Test Results in Patient Education.* Journal of Medical Education and Curricular Development.
 
+---
+
 ## 📄 License
 This project is for educational purposes only. It is not intended for clinical diagnosis. See the LICENSE file for details.
+
+---
 
 📎 Links
 GitHub repository: https://github.com/SayabArshad/MedExplain-Agent
