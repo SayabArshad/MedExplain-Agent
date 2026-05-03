@@ -17,9 +17,7 @@
 
 | Home Page | Text Input | PDF Upload |
 |-----------|------------|------------|
-| ![Home](assets/home.jpeg) | ![Text Input](assets/text.jpeg) | ![PDF Input](assets/pdf.jpeg) |
-
-*The interface allows pasting raw lab values or uploading a complete PDF report.*
+| ![Home](./assets/home.jpeg) | ![Text Input](./assets/text.jpeg) | ![PDF Input](./assets/pdf.jpeg) |
 
 ---
 
@@ -115,10 +113,12 @@ Plain‑English explanation
 A medical disclaimer is always displayed at the end.
 
 ## Example Output
-Test	Value	Reference	Risk	Explanation
-HbA1c	8.1 %	4.0–5.6 %	🔴 High Risk	Your HbA1c suggests higher than normal average blood sugar over the past 3 months. This may indicate prediabetes or diabetes. Please discuss this result with your doctor.
-Hemoglobin	10.2 g/dL	12.0–15.5 g/dL	🔴 High Risk	Your hemoglobin is below the normal range, which may indicate anaemia. Please discuss this result with your doctor.
-LDL Cholesterol	145 mg/dL	<100 mg/dL	🟠 Moderate Risk	Your LDL is slightly above the optimal level. Lifestyle changes or medication may be discussed with your physician.
+
+| Test | Value | Reference | Risk | Explanation |
+|------|-------|-----------|------|--------------|
+| HbA1c | 8.1 % | 4.0–5.6 % | 🔴 High Risk | Your HbA1c suggests higher than normal average blood sugar over the past 3 months. This may indicate prediabetes or diabetes. Please discuss this result with your doctor. |
+| Hemoglobin | 10.2 g/dL | 12.0–15.5 g/dL | 🔴 High Risk | Your hemoglobin is below the normal range, which may indicate anaemia. Please discuss this result with your doctor. |
+| LDL Cholesterol | 145 mg/dL | <100 mg/dL | 🟠 Moderate Risk | Your LDL is slightly above the optimal level. Lifestyle changes or medication may be discussed with your physician. |
 
 ## 📊 Evaluation Summary
 We evaluated MedExplain on 50 lab test cases (15 high‑risk, 20 moderate‑risk, 15 low‑risk) covering 15 different biomarkers, with ground truth provided by a practising physician.
